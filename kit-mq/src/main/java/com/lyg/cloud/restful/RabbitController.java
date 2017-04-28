@@ -1,3 +1,7 @@
+/**
+ * lyg-user-service
+ * @author liyouguang
+ */
 package com.lyg.cloud.restful;
 
 import org.springframework.beans.factory.annotation.Autowired;

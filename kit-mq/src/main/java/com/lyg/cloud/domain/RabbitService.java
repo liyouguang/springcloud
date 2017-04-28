@@ -1,3 +1,7 @@
+/**
+ * lyg-user-service
+ * @author liyouguang
+ */
 package com.lyg.cloud.domain;
 
 import java.io.IOException;

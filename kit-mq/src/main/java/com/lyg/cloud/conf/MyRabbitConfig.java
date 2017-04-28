@@ -1,3 +1,7 @@
+/**
+ * lyg-user-service
+ * @author liyouguang
+ */
 package com.lyg.cloud.conf;
 
 import org.springframework.amqp.rabbit.connection.CachingConnectionFactory;
