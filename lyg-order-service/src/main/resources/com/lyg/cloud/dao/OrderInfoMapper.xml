@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lyg.cloud.dao.OrderInfoDao">
+	<resultMap type="com.lyg.cloud.model.OrderInfo" id="orderMap">
+		<id column="id" property="id" jdbcType="VARCHAR" />
+		<result column="order_name" property="orderName" jdbcType="VARCHAR" />
+	</resultMap>
+	<select id="findAll" resultMap="orderMap">
+		select * from order_info
+	</select>
+</mapper>
