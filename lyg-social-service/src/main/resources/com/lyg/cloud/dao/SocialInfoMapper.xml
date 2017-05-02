@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lyg.cloud.dao.SocialInfoDao">
+	<resultMap type="com.lyg.cloud.model.SocialInfo" id="socialMap">
+		<id column="id" property="id" jdbcType="VARCHAR" />
+		<result column="social_name" property="socialName" jdbcType="VARCHAR" />
+	</resultMap>
+	<select id="findAll" resultMap="socialMap">
+		select * from social_info
+	</select>
+</mapper>
